@@ -1,0 +1,15 @@
+@mixin inner(
+  $content-width: 1200px
+) {
+  width: $content-width;
+  margin: 0 auto;
+}
+
+@mixin btn(
+  $pd: 10px 10px,
+  $btn-width: 200px
+) {
+  padding: $pd;
+  width: $btn-width;
+  display: block;
+}
